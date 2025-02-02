@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font: 1em sans-serif;
+}
+
+button {
+    background-color: rgb(220, 190, 0);
+    font-size: 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(160, 131, 0);
+    color: rgb(86, 78, 196);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h1{
+    color: rgb(220, 190, 0);
+    font-size: 70px;
+    text-align: center;
+    margin: 50px;
+    text-shadow: -3px 3px 5px rgb(135, 135, 135);
+}
+
+#con{
+    width: 1368px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(smoot.jpg);
+    background-size: cover;
+}
+
+#Box1, #Box2, #Box3{
+    width: 200px;
+    height: 230px;
+    border: solid rgb(70, 70, 70) 3px;
+    padding: 5px;
+    margin: 45px 20px; 
+    font-weight: bold;
+    color: rgb(66, 123, 203);
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px 5px 20px rgb(19, 19, 19);
+}
+#box1, #box2, #box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#box1{
+    /*background-image: url(scarpe_s.jpg);
+    background-size: cover;
+    background-position: center;*/
+    background-color: blueviolet;
+}
+
+#box2{
+    /*background-image: url(felpa.webp);
+    background-size: cover;
+    background-position: center;*/
+    background-color: brown;
+}
+
+#box3{
+    /*background-image: url(magl.webp);
+    background-size: cover;
+    background-position: center;*/
+    background-color: blue;
+}
+
+@media(max-width:550px){
+    #con{
+        width: 500px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    #Box1, #Box2, #Box3{
+        margin-left: 140px;
+    }
+}
