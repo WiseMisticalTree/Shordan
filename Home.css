@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font: 1em sans-serif;
+}
+
+button {
+    background-color: rgb(220, 190, 0);
+    font-size: 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(160, 131, 0);
+    color: rgb(86, 78, 196);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.h1{
+    color: rgb(220, 190, 0); 
+    font-size: 120px;
+    text-align: center;
+    margin: 70px;
+    text-shadow: -3px 3px 5px rgb(135, 135, 135);
+}
+
+.h2{
+    color: rgb(200, 50, 0);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: -3px 3px 5px rgb(135, 135, 135);
+}
+
+#con{
+    width: 1368px;
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+  /*background-color: rgb(215, 215, 215);*/
+    background-image: url(smoot.jpg);
+    background-size: cover;
+}
+
+#Box1, #Box2, #Box3{
+    width: 200px;
+    height: 230px;
+    border: solid rgb(70, 70, 70) 3px;
+    padding: 5px;
+    margin: 45px 20px;
+  /*display: inline-block;*/ 
+    font-weight: bold;
+    color: rgb(66, 123, 203);
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -5px 5px 20px rgb(19, 19, 19);
+}
+#box1, #box2, #box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#box1{
+    background-image: url(scarpe_s.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box2{
+    background-image: url(felpa.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3{
+    background-image: url(magl.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#imgg{
+    width: 1368px;
+    height: 400px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#chi{
+    width: 158px;
+    color: rgb(230, 230, 230);
+    font-size: 30px;
+    padding-left: 1210px;
+    background-color: rgb(66, 123, 203);
+    font-weight: bold;
+}
+
+@media(max-width:550px){
+    #con{
+        width: 500px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    #Box1, #Box2, #Box3{
+        margin-left: 140px;
+    }
+    #imgg{
+        width: 500px;
+        height: 200px;
+    }
+    #chi{
+        width: 150px;
+        padding-left: 350px;
+    }
+    .h1{
+        font-size: 90px;
+        margin: 50px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+}
